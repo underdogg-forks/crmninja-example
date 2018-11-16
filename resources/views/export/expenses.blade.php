@@ -2,7 +2,7 @@
     <td>{{ trans('texts.vendor') }}</td>
     <td>{{ trans('texts.client') }}</td>
     @if ($multiUser)
-        <td>{{ trans('texts.user') }}</td>
+    <td>{{ trans('texts.user') }}</td>
     @endif
     <td>{{ trans('texts.expense_date') }}</td>
     <td>{{ trans('texts.amount') }}</td>
@@ -18,22 +18,22 @@
 </tr>
 
 @foreach ($expenses as $expense)
-    <tr>
-        <td>{{ $expense->vendor ? $expense->vendor->getDisplayName() : '' }}</td>
-        <td>{{ $expense->client ? $expense->client->getDisplayName() : '' }}</td>
-        @if ($multiUser)
-            <td>{{ $expense->user->getDisplayName() }}</td>
-        @endif
-        <td>{{ $expense->expense_date }}</td>
-        <td>{{ $expense->present()->amount }}</td>
-        <td>{{ $expense->present()->taxAmount }}</td>
-        <td>{{ $expense->present()->currencyCode }}</td>
-        <td>{{ $expense->present()->category }}</td>
-        <td>{{ $expense->statusLabel() }}</td>
-        <td>{{ $expense->public_notes }}</td>
-        <td>{{ $expense->private_notes }}</td>
-        <td>{{ $expense->present()->payment_type }}</td>
-        <td>{{ $expense->payment_date }}</td>
-        <td>{{ $expense->transaction_reference }}</td>
-    </tr>
+<tr>
+    <td>{{ $expense->vendor ? $expense->vendor->getDisplayName() : '' }}</td>
+    <td>{{ $expense->client ? $expense->client->getDisplayName() : '' }}</td>
+    @if ($multiUser)
+    <td>{{ $expense->user->getDisplayName() }}</td>
+    @endif
+    <td>{{ $expense->expense_date }}</td>
+    <td>{{ $expense->present()->amount }}</td>
+    <td>{{ $expense->present()->taxAmount }}</td>
+    <td>{{ $expense->present()->currencyCode }}</td>
+    <td>{{ $expense->present()->category }}</td>
+    <td>{{ $expense->statusLabel() }}</td>
+    <td>{{ $expense->public_notes }}</td>
+    <td>{{ $expense->private_notes }}</td>
+    <td>{{ $expense->present()->payment_type }}</td>
+    <td>{{ $expense->payment_date }}</td>
+    <td>{{ $expense->transaction_reference }}</td>
+</tr>
 @endforeach

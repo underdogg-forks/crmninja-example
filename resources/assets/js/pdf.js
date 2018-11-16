@@ -31,7 +31,7 @@ if (typeof PDFJS === 'undefined') {
   // Use strict in our context only - users might not want it
   'use strict';
 
-//#expand __BUNDLE__
+  //#expand __BUNDLE__
 
 }).call((typeof window === 'undefined') ? this : window);
 
@@ -41,7 +41,7 @@ if (!PDFJS.workerSrc && typeof document !== 'undefined') {
   PDFJS.workerSrc = (function () {
     'use strict';
     var scriptTagContainer = document.body ||
-                             document.getElementsByTagName('head')[0];
+      document.getElementsByTagName('head')[0];
     var pdfjsSrc = scriptTagContainer.lastChild.src;
     return pdfjsSrc && pdfjsSrc.replace(/\.js$/i, '.worker.js');
   })();

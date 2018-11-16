@@ -2,10 +2,9 @@
 
 @section('content')
 
-	<script type="text/javascript">
-
-<?php
+<script type="text/javascript">
+	<?php
 	dd($ticket);
 	?>
 
-@stop
+	@stop

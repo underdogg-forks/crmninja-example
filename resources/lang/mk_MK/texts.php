@@ -1,7 +1,6 @@
 <?php
 
 $LANG = array(
-
     'organization' => 'Организација',
     'name' => 'Име',
     'website' => 'Веб Страна',
@@ -899,7 +898,7 @@ $LANG = array(
     'edit_vendor' => 'Измени продавач',
     'archive_vendor' => 'Архивирај продавач',
     'delete_vendor' => 'Избриши продавач',
-    'view_vendor' => 'Прегледај продавач',
+    'view_vendor' => 'Прегле��ај продавач',
     'deleted_expense' => 'Успешно бришење на трошок',
     'archived_expense' => 'Успешно архивирање на трошок',
     'deleted_expenses' => 'Успешно бришење на трошоци',
@@ -1015,7 +1014,6 @@ $LANG = array(
     'trial_call_to_action' => 'Започни бесплатен пробен период',
     'trial_success' => 'Успешно овозможен и две недели за бесплатен пробен период на Pro план',
     'overdue' => 'Задоцнето',
-
 
     'white_label_text' => 'Купете ЕДНОГОДИШЕН ПЛАН за брендирана лиценца за $:price за да го отстраните брендирањето на Invoice Ninja од клиентскиот портал.',
     'user_email_footer' => 'За прилагодување на вашите поставки за известувања преку е-пошта ве молиме посетете :link',
@@ -1196,7 +1194,6 @@ $LANG = array(
     'enterprise_plan_features' => 'Планот за претпријатија дава поддршка за повеќе корисници и прикачувања на документи, :link за да ја видите целата листа на придобивки ',
     'return_to_app' => 'Врати се на апликација',
 
-
     // Payment updates
     'refund_payment' => 'Рефундирај плаќање',
     'refund_max' => 'Максимално:',
@@ -1305,7 +1302,6 @@ $LANG = array(
     'braintree_paypal_help_link_text' => 'Поврзете го PayPal за вашата BrainTree сметка ',
     'token_billing_braintree_paypal' => 'Зачувај детали за плаќање',
     'add_paypal_account' => 'Додај PayPal сметка',
-
 
     'no_payment_method_specified' => 'Нема одредено начин на плаќање',
     'chart_type' => 'Тип на графикон',
@@ -1789,7 +1785,7 @@ $LANG = array(
     'industry_Transportation' => 'Транспорт',
     'industry_Travel & Luxury' => 'Патување и луксуз',
     'industry_Other' => 'Друго',
-    'industry_Photography' =>'Фотографија',
+    'industry_Photography' => 'Фотографија',
 
     'view_client_portal' => 'Прегледај портал на клиент',
     'view_portal' => 'Прегледај портал',
@@ -1963,37 +1959,37 @@ $LANG = array(
     'authorization' => 'Овластување',
     'signed' => 'Потпишано',
 
-	// BlueVine
-	'bluevine_promo' => 'Добијте флексибилни бизнис линии на кредит и факторинг на фактури преку BlueVine.',
-	'bluevine_modal_label' => 'Регистрирај се со BlueVine',
-	'bluevine_modal_text' => '<h3> Брзо финансирање на вашиот бизнис. Без документи. </h3> 
+    // BlueVine
+    'bluevine_promo' => 'Добијте флексибилни бизнис линии на кредит и факторинг на фактури преку BlueVine.',
+    'bluevine_modal_label' => 'Регистрирај се со BlueVine',
+    'bluevine_modal_text' => '<h3> Брзо финансирање на вашиот бизнис. Без документи. </h3> 
  <ul> <li> Флексибилни бизнис линии на кредит и факторинг на фактури </li> </ul> ',
-	'bluevine_create_account' => 'Креирај сметка',
-	'quote_types' => 'Добиј понуда за',
-	'invoice_factoring' => 'Факторинг на фактура',
-	'line_of_credit' => 'Линија на кредит',
-	'fico_score'                         => 'Вашиот FICO резултат',
-	'business_inception'                 => 'Датум на започнување бизнис',
-	'average_bank_balance'               => 'Просечна состојба на билансна сметка',
-	'annual_revenue'                     => 'Годишен приход',
-	'desired_credit_limit_factoring'     => 'Посакувано ограничување на факторинг на фактура ',
-	'desired_credit_limit_loc'           => 'Посакувано ограничување на линија на кредит',
-	'desired_credit_limit'               => 'Посакувано ограничување на кредит',
-	'bluevine_credit_line_type_required' => 'Мора да изберете баред едно',
-	'bluevine_field_required'            => 'Ова поле е задолжително',
-	'bluevine_unexpected_error'          => 'Се случи неочекувана грешка.',
-	'bluevine_no_conditional_offer'      => 'Потребни се повеќе информации пред да добиете понуда. Кликнете продолжи подоле.',
-	'bluevine_invoice_factoring'         => 'Факторинг на фактура',
-	'bluevine_conditional_offer'         => 'Доверлива понуда',
-	'bluevine_credit_line_amount'        => 'Кредитна линија',
-	'bluevine_advance_rate'              => 'Стапка на аванс',
-	'bluevine_weekly_discount_rate'      => 'Неделна стапка на попуст',
-	'bluevine_minimum_fee_rate'          => 'Минимална провизија',
-	'bluevine_line_of_credit'            => 'Линија на кредит',
-	'bluevine_interest_rate'             => 'Каматна стапка',
-	'bluevine_weekly_draw_rate'          => 'Неделна стапка на повлекување',
-	'bluevine_continue'                  => 'Продолжи на BlueVine',
-	'bluevine_completed'                 => 'Регистрирањето на BlueVine е завршено',
+    'bluevine_create_account' => 'Креирај сметка',
+    'quote_types' => 'Добиј понуда за',
+    'invoice_factoring' => 'Факторинг на фактура',
+    'line_of_credit' => 'Линија на кредит',
+    'fico_score' => 'Вашиот FICO резултат',
+    'business_inception' => 'Датум на започнување бизнис',
+    'average_bank_balance' => 'Просечна состојба на билансна сметка',
+    'annual_revenue' => 'Годишен приход',
+    'desired_credit_limit_factoring' => 'Посакувано ограничување на факторинг на фактура ',
+    'desired_credit_limit_loc' => 'Посакувано ограничување на линија на кредит',
+    'desired_credit_limit' => 'Посакувано ограничување на кредит',
+    'bluevine_credit_line_type_required' => 'Мора да изберете баред едно',
+    'bluevine_field_required' => 'Ова поле е задолжително',
+    'bluevine_unexpected_error' => 'Се случи неочекувана грешка.',
+    'bluevine_no_conditional_offer' => 'Потребни се повеќе информации пред да добиете понуда. Кликнете продолжи подоле.',
+    'bluevine_invoice_factoring' => 'Факторинг на фактура',
+    'bluevine_conditional_offer' => 'Доверлива понуда',
+    'bluevine_credit_line_amount' => 'Кредитна линија',
+    'bluevine_advance_rate' => 'Стапка на аванс',
+    'bluevine_weekly_discount_rate' => 'Неделна стапка на попуст',
+    'bluevine_minimum_fee_rate' => 'Минимална провизија',
+    'bluevine_line_of_credit' => 'Линија на кредит',
+    'bluevine_interest_rate' => 'Каматна стапка',
+    'bluevine_weekly_draw_rate' => 'Неделна стапка на повлекување',
+    'bluevine_continue' => 'Продолжи на BlueVine',
+    'bluevine_completed' => 'Регистрирањето на BlueVine е завршено',
 
     'vendor_name' => 'Продавач',
     'entity_state' => 'Состојба',
@@ -2127,16 +2123,16 @@ $LANG = array(
     'reports_help' => 'Shift + клик за распределување по повеќе колони, Ctrl + клик за чистење на групирањето.',
     'this_year' => 'Оваа година',
 
-	// Updated login screen
-	'ninja_tagline' => 'Креирај. Прати. Биди платен.',
-	'login_or_existing' => 'Или најави се со поврзана сметка.',
-	'sign_up_now' => 'Регистрирај се сега',
-	'not_a_member_yet' => 'Се уште не си член?',
-	'login_create_an_account' => 'Креирај сметка!',
-	'client_login' => 'Најава на клиент',
+    // Updated login screen
+    'ninja_tagline' => 'Креирај. Прати. Биди платен.',
+    'login_or_existing' => 'Или најави се со поврзана сметка.',
+    'sign_up_now' => 'Регистрирај се сега',
+    'not_a_member_yet' => 'Се уште не си член?',
+    'login_create_an_account' => 'Креирај сметка!',
+    'client_login' => 'Најава на клиент',
 
-	// New Client Portal styling
-	'invoice_from' => 'Фактури од:',
+    // New Client Portal styling
+    'invoice_from' => 'Фактури од:',
     'email_alias_message' => 'Бараме од секоја компанијада има уникатна адреса на е-пошта. <br/> Земете го во предвид користењето на псевдоним. На пр. email+label@example.com',
     'full_name' => 'Целосно име',
     'month_year' => 'МЕСЕЦ/ГОДИНА',
@@ -2431,7 +2427,7 @@ $LANG = array(
     'tax1' => 'Прв данок',
     'tax2' => 'Втор Данок',
     'fee_help' => 'Такса за платниот портал е износот кој се наплаќа за пристап до финансиската мрежа која се бави со процесирање на онлан плаќања.',
-	'format_export' => 'Формат за експортирање',
+    'format_export' => 'Формат за експортирање',
     'custom1' => 'Прво прилагодено',
     'custom2' => 'Второ прилагодено',
     'contact_first_name' => 'Контакт Име',
@@ -2864,9 +2860,6 @@ $LANG = array(
     'my_invoices' => 'Мои фактури',
     'mobile_refresh_warning' => 'Ако ја користите мобилната апликација можеби ќе треба да направите целосно освежување.',
     'enable_proposals_for_background' => 'За да прикажите позадинска слика :link за овозможување на модулот за предлози.',
-
 );
 
 return $LANG;
-
-?>

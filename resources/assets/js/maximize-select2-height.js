@@ -68,8 +68,8 @@
 
       // innerHeight is more accurate across browsers than $(window).height().
       height = window.innerHeight +
-               $window.scrollTop() -
-               $select2Results.offset().top;
+        $window.scrollTop() -
+        $select2Results.offset().top;
     } else {
       // When the dropdown appears upwards, the formula is:
       //   vertical position of the widget (clickable) dropdown box
@@ -82,15 +82,15 @@
       // Compute the global vertical offset of the widget box (the one with the
       // downward arrow that the user clicks on to expose options).
       widgetBoxOffset = $("#select2-" + id + "-container").
-                        parent().parent().parent().offset().top;
+      parent().parent().parent().offset().top;
 
       // Compute the height, if any, of search box and other content in the
       // results box but not part of the results.
       resultsBoxMiscellaniaHeight = $grandparent.height() -
-                                    $select2Results.height();
+        $select2Results.height();
       height = widgetBoxOffset -
-               $window.scrollTop() -
-               resultsBoxMiscellaniaHeight;
+        $window.scrollTop() -
+        resultsBoxMiscellaniaHeight;
     }
 
     // Leave a little cushion to prevent the dropdown from
@@ -123,7 +123,7 @@
           var $parent = $select2Results.parent();
           var $grandparent = $parent.parent();
           var dropdownDownwards = $grandparent
-                                  .hasClass("select2-dropdown--below");
+            .hasClass("select2-dropdown--below");
 
           var maxHeight = computeMaxHeight(
             el.id,
